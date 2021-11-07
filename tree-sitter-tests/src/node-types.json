@@ -1,0 +1,29 @@
+[
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "buzz",
+          "named": true
+        },
+        {
+          "type": "fizz",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "buzz",
+    "named": true
+  },
+  {
+    "type": "fizz",
+    "named": true
+  }
+]

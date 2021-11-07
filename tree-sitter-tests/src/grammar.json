@@ -1,0 +1,41 @@
+{
+  "name": "dummy",
+  "rules": {
+    "source_file": {
+      "type": "REPEAT",
+      "content": {
+        "type": "CHOICE",
+        "members": [
+          {
+            "type": "SYMBOL",
+            "name": "fizz"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "buzz"
+          }
+        ]
+      }
+    },
+    "fizz": {
+      "type": "STRING",
+      "value": "fizz"
+    },
+    "buzz": {
+      "type": "STRING",
+      "value": "buzz"
+    }
+  },
+  "extras": [
+    {
+      "type": "PATTERN",
+      "value": "\\s"
+    }
+  ],
+  "conflicts": [],
+  "precedences": [],
+  "externals": [],
+  "inline": [],
+  "supertypes": []
+}
+
