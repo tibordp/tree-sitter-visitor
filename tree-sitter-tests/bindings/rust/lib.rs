@@ -9,7 +9,7 @@ pub fn language() -> Language {
     unsafe { tree_sitter_dummy() }
 }
 
-pub const NODE_TYPES: &'static str = include_str!("../../src/node-types.json");
+pub const NODE_TYPES: &str = include_str!("../../src/node-types.json");
 #[visitor_trait("../../src/node-types.json")]
 pub trait CalcVisitor {}
 
